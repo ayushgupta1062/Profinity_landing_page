@@ -2261,7 +2261,7 @@ body {
   .pill {
     left: 50%;
     transform: translateX(-50%);
-    margin-top: 320px;
+    margin-top: 400px;
   }
 }
 @media (max-width: 768px) {
@@ -2633,6 +2633,7 @@ html, body {
 .top-bar {
   overflow: visible !important;
 }
+
 
 
 

@@ -2261,7 +2261,7 @@ body {
   .pill {
     left: 50%;
     transform: translateX(-50%);
-    margin-top: 95px;
+    margin-top: 340px;
   }
 }
 @media (max-width: 768px) {

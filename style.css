@@ -2600,6 +2600,23 @@ body {
     display: block;
   }
 }
+@media (max-width: 768px) {
+  .hero {
+    min-height: auto !important;
+    padding-bottom: 0 !important;
+    background: none !important;
+  }
+
+  .hero::after,
+  .hero::before {
+    display: none !important;
+  }
+}
+.hero-content {
+  background: linear-gradient(#040b2c, #040b2c);
+  padding-bottom: 40px;
+}
+
 
 
 

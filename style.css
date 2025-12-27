@@ -363,7 +363,7 @@ header + .hero .pill {
   align-items: center;
   position: relative;
   padding-bottom: 120px;  
-  background: radial-gradient( #0b1640);          
+           
 }
 .hero-about {
  
@@ -371,7 +371,7 @@ header + .hero .pill {
   display: flex;                 
   justify-content: center;       
   align-items: center; 
-  background: linear-gradient(#020824, #020824);  
+ background: #020824;    
 }
 
 .hero-grid {
@@ -379,7 +379,7 @@ header + .hero .pill {
   display: flex;                 
   justify-content: center;       
   align-items: center; 
-  background: radial-gradient( #0b1640); 
+  background: #020824;  
 
 }
 
@@ -387,14 +387,15 @@ header + .hero .pill {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: radial-gradient( #0b1640);
+  background: #020824;  
+  
 }
 
 .hero-image img {
   max-height: 420px;
   width: auto;
   display: block;
-  background: radial-gradient( #0b1640);
+   background: linear-gradient(#020824, #020824);  
   border-bottom: 1px solid rgba(247, 183, 49, 0.25);
 }
 @media (max-width: 768px) {
@@ -402,7 +403,7 @@ header + .hero .pill {
     max-height: 260px;
     margin: 0 auto;
     max-width: 200px;
-    margin-top:85px; 
+    margin-top:-255px; 
   }
 }
 @media (max-width: 1024px) {
@@ -411,6 +412,19 @@ header + .hero .pill {
     height: auto;
   }
 }
+@media (max-width: 768px) {
+  .hero {
+    margin-top: -20px !important;
+    padding-top: 0 !important;
+  }
+
+  .hero img,
+  .hero-image img {
+    margin-top: 0 !important;
+    display: block;
+  }
+}
+
 
 
 .top-bar {
@@ -2261,7 +2275,7 @@ body {
   .pill {
     left: 50%;
     transform: translateX(-50%);
-    margin-top: 400px;
+    margin-top: 350px;
   }
 }
 @media (max-width: 768px) {
@@ -2633,7 +2647,6 @@ html, body {
 .top-bar {
   overflow: visible !important;
 }
-
 
 
 

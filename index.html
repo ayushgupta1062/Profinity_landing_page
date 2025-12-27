@@ -685,7 +685,24 @@
     <span id="isdCode">+91</span>
   </button>
 
-  <input type="tel" placeholder="Phone *" required />
+ <input 
+  type="tel" 
+  id="phoneInput" 
+  placeholder="Phone Number" 
+  required 
+/>
+<span id="phone-valid" style="
+  display:none;
+  color: #2ecc71;
+  font-size: 18px;
+  margin-left: 6px;
+">✔</span>
+
+
+<small id="phoneError" style="color:red; display:none; margin-top:5px;">
+  Please enter a valid mobile number
+</small>
+
 
   <!-- ISD DROPDOWN -->
   <div class="isd-dropdown" id="isdDropdown">
@@ -949,4 +966,3 @@ document.addEventListener("DOMContentLoaded", function () {
 
 </body>
 </html>
-
